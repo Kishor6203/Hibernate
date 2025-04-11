@@ -16,12 +16,12 @@ public class UpdateEmployeeByUpdate
 		
 		Employee e=new Employee();
 		e.setId(1);
-		e.setName("Abhinav");
+		e.setName("DEF");
 		e.setPhone(8844665599l);
 		e.setDesg("HR");
 		e.setSalary(30000);
-		e.setGmail("Abhinav@gmail.com");
-		e.setPassword("abhinav123");
+		e.setGmail("def@gmail.com");
+		e.setPassword("def123");
 		
 		ses.update(e);
 		tran.commit();
