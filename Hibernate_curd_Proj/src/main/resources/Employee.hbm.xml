@@ -4,7 +4,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-<class name="org.jspiders.hib.Employee" table="Employee">
+<class name="org.hibernate.curd.operation.Employee" table="Employee">
 <id name="id" column="id" >
 <generator class="identity" />
 </id>
