@@ -21,7 +21,7 @@ public class UpdateEmployeeByFetchAndUpdate
 		Employee e=ses.get(Employee.class, eid); //Persistent State
 		if(e!=null)
 		{
-			e.setName("Riya");
+			e.setName("ABC");
 			e.setPhone(9911665983l);
 			e.setDesg("TeamLeader");
 			e.setSalary(40000);
