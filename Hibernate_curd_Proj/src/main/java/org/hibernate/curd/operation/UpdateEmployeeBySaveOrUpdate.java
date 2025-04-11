@@ -16,11 +16,11 @@ public class UpdateEmployeeBySaveOrUpdate
 		
 		Employee e=new Employee();
 		e.setId(10);
-		e.setName("Anju");
+		e.setName("PQR");
 		e.setPhone(446688992l);
 		e.setDesg("TL");
-		e.setGmail("Anju@gmail.com");
-		e.setPassword("anju1234");
+		e.setGmail("pqr@gmail.com");
+		e.setPassword("pqr1234");
 		e.setSalary(20000);
 		
 		ses.saveOrUpdate(e);
