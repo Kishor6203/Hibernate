@@ -16,12 +16,12 @@ public class SaveEmployee {
 		tran.begin();
 		
 		Employee e=new Employee();
-		e.setName("Kishor");
+		e.setName("abc");
 		e.setPhone(8899665588L);
 		e.setDesg("Manager");
 		e.setSalary(600000);
-		e.setGmail("King@gmail.com");
-		e.setPassword("Queen1234");
+		e.setGmail("abc@gmail.com");
+		e.setPassword("abc1234");
 		
 		int id=(int) ses.save(e);
 		tran.commit();
